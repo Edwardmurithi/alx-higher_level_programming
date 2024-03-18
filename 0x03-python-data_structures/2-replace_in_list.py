@@ -1,15 +1,7 @@
 #!/usr/bin/pyhton3
 
 def replace_in_list(my_list, idx, element):
-    """
-    function that replaces an element of a list at a specific position
-    (like in C)
-    """
-    for i in range(len(my_list)):
-        if idx == i:
-            my_list[idx] = element
-            return my_list
-        if idx < 0:
-            return my_list
-        if idx > len(my_list) - 1:
-            return my_list
+    """replaces an element of a list at a specific position (like in C)"""
+    if idx > -1 or idx < len(my_list):
+        my_list[idx] = element
+    return my_list

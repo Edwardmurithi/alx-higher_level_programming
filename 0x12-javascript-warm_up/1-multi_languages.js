@@ -1,5 +1,9 @@
 #!/usr/bin/node
 
-console.log('C is fun');
-console.log('Python is cool');
-console.log('Javascript is amazing');
+let first_lang = 'C is fun';
+let second_lang = 'Python is cool';
+let third_lang = 'Javasript is amazing';
+
+console.log(first_lang);
+console.log(second_lang);
+console.log(third_lang);
